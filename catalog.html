@@ -48,82 +48,73 @@
 			</li>
 		</ul>
 		<div class="filter">
-			<h2>Производители:</h2>
 			<form class="makers" action="#">
+			<fieldset>
+				<h2>Производители:</h2>
 				<label><input type="checkbox">Baxter of California</label>
 				<label><input type="checkbox">Mr Natty</label>
 				<label><input type="checkbox">Suavecito</label>
 				<label><input type="checkbox">Malin+Goetz</label>
 				<label><input type="checkbox">Murray's</label>
 				<label><input type="checkbox">American crew</label>
-			</form>
-			<h2>Группы товаров:</h2>
-			<form class="product-groups">
+			</fieldset>
+			<fieldset>
+				<h2>Группы товаров:</h2>
 				<label><input type="radio">Бритвенные принадлежности</label>
 				<label><input type="radio">Средства для ухода</label>
 				<label><input type="radio">Аксессуары</label>
+			</fieldset>
+			<button type="button">Показать</button>
 			</form>
 		</div>
 		<div class="products">
 			<article>
-				<img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+				<div class="img-wrapper">
+					<img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+				</div>	
 				<p>Набор для путешествий «Baxter of California»</p>
-				<ul>
-					<li>2900 РУБ.</li>
-					<li>
-						<a href="#">Купить</a>
-					</li>
-				</ul>
+					<span>2900 РУБ.</span>
+					<a href="#">Купить</a>
 			</article>
 			<article>
-				<img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер «Baxter of California»">
+				<div class="img-wrapper">
+					<img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер «Baxter of California»">
+				</div>	
 				<p>Увлажняющий кондиционер «Baxter of California»</p>
-				<ul>
-					<li>750 РУБ.</li>
-					<li>
-						<a href="#">Купить</a>
-					</li>
-				</ul>
+				<span>750 РУБ.</span>
+				<a href="#">Купить</a>
 			</article>
 			<article>
-				<img src="http://placehold.it/150x100" alt="Гель для волос «Suavecito»">
+				<div class="img-wrapper">
+					<img src="http://placehold.it/150x100" alt="Гель для волос «Suavecito»">
+				</div>
 				<p>Гель для волос «Suavecito»</p>
-				<ul>
-					<li>290 РУБ.</li>
-					<li>
-						<a href="#">Купить</a>
-					</li>
-				</ul>
+				<span>290 РУБ.</span>
+				<a href="#">Купить</a>
 			</article>
 			<article>
-				<img src="http://placehold.it/150x100" alt="Гель для укладки волос «American crew»">
+				<div class="img-wrapper">
+					<img src="http://placehold.it/150x100" alt="Гель для укладки волос «American crew»">
+				</div>	
 				<p>Гель для укладки волос «American crew»</p>
-				<ul>
-					<li>500 РУБ.</li>
-					<li>
-						<a href="#">Купить</a>
-					</li>
-				</ul>
+				<span>500 РУБ.</span>
+				<a href="#">Купить</a>
 			</article>
 			<article>
-				<img src="http://placehold.it/150x100" alt="Гель для волос «American crew»">
+				<div class="img-wrapper">
+					<img src="http://placehold.it/150x100" alt="Гель для волос «American crew»">
+				</div>	
 				<p>Гель для волос «American crew»</p>
-				<ul>
-					<li>300 РУБ.</li>
-					<li>
-						<a href="#">Купить</a>
-					</li>
-				</ul>
+				<span>300 РУБ.</span>
+				<a href="#">Купить</a>
 			</article>
 			<article>
-				<img src="http://placehold.it/150x100" alt="Набор для бритья «Baxter of California»">
+				<div class="img-wrapper">
+					<img src="http://placehold.it/150x100" alt="Набор для бритья «Baxter of California»">
+				</div>	
 				<p>Набор для бритья «Baxter of California»</p>
-				<ul>
-					<li>3900 РУБ.</li>
-					<li>
-						<a href="#">Купить</a>
-					</li>
-				</ul>
+				<span>3900 РУБ.</span>
+				<a href="#">Купить</a>
 			</article>
 			<ul>
 				<li>
@@ -144,19 +135,19 @@
 	<footer class="main-footer">
       <div class="container">
         <section class="footer-contacts">
-          Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+         <span> Барбершоп «Бородинский»</span><br>
+          <span>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span><br>
           <a href="#">Как нас найти?</a><br>
-          Телефон: +7 (812) 666-02-66
+          <span>Телефон: +7 (812) 666-02-66</span>
         </section>
         <section class="footer-social">
-          <p>Давайте дружить!</p>
+          <span>Давайте дружить!</span>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </section>
         <section class="footer-copyright">
-          <p>Разработано:</p>
+          <span>Разработано:</span>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
       </div>

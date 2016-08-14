@@ -1,13 +1,153 @@
+html,
 body {
-	font-family: 'PT Sans Narrow','Tahoma',sans-serif;
-	font-size: 14px;
-	line-height: 24px;
-	color: #000;
-	font-weight: bold;
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
 }
-h2 {
-	font-size: 30px;
-	line-height: 42px;
-	color: #000;
-	font-weight: bold;
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.product-gallery {
+	float: left;
+	width: 460px;
+	min-height: 670px;
+}
+
+.info {
+	float: right;
+	width: 390px;
+}
+
+.main-img-wrapper {
+	margin-bottom: 20px;
+}
+
+.img-wrapper {
+	float: left;
+	margin-right: 20px;
+}
+.img-wrapper:last-child {
+	margin-right: 0;
+}
+
+.filter {
+	float: left;
+	width: 220px;
+}
+
+.products {
+	float: right;
+	width: 700px;
+}
+
+article {
+	float: left;
+	width: 220px;
+	min-height: 286px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+article:nth-child(3n) {
+	margin-right: 0;
+}
+
+.navigation {
+	clear: both;
+}
+
+fieldset {
+	margin-bottom: 55px;
 }

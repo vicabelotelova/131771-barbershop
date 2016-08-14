@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Барбершоп «Бородинский»</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
+		<div class="container clearfix">
 			<nav class="main-navigation">
 				<ul>
 					<li>
@@ -34,7 +35,7 @@
 			</div>
 		</div>
 	</header>
-	<main class="container">
+	<main class="container clearfix">
 		<h1>Средства ухода</h1>
 		<ul class="breadcrumbs">
 			<li>
@@ -49,20 +50,42 @@
 		</ul>
 		<div class="filter">
 			<form class="makers" action="#">
+			<h2>Производители:</h2>
 			<fieldset>
-				<h2>Производители:</h2>
-				<label><input type="checkbox">Baxter of California</label>
-				<label><input type="checkbox">Mr Natty</label>
-				<label><input type="checkbox">Suavecito</label>
-				<label><input type="checkbox">Malin+Goetz</label>
-				<label><input type="checkbox">Murray's</label>
-				<label><input type="checkbox">American crew</label>
+				<ul>
+					<li>
+						<label><input type="checkbox">Baxter of California</label>
+					</li>
+					<li>
+						<label><input type="checkbox">Mr Natty</label>
+					</li>
+					<li>
+						<label><input type="checkbox">Suavecito</label>
+					</li>
+					<li>
+						<label><input type="checkbox">Malin+Goetz</label>
+					</li>
+					<li>
+						<label><input type="checkbox">Murray's</label>
+					</li>
+					<li>
+						<label><input type="checkbox">American crew</label>	
+					</li>
+				</ul>				
 			</fieldset>
+			<h2>Группы товаров:</h2>
 			<fieldset>
-				<h2>Группы товаров:</h2>
-				<label><input type="radio">Бритвенные принадлежности</label>
-				<label><input type="radio">Средства для ухода</label>
-				<label><input type="radio">Аксессуары</label>
+				<ul>
+					<li>
+						<label><input type="radio">Бритвенные принадлежности</label>
+					</li>
+					<li>
+						<label><input type="radio">Средства для ухода</label>
+					</li>
+					<li>
+						<label><input type="radio">Аксессуары</label>
+					</li>
+				</ul>	
 			</fieldset>
 			<button type="button">Показать</button>
 			</form>
@@ -72,7 +95,7 @@
 				<div class="img-wrapper">
 					<img src="img/baxter-for-trevel.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
 				</div>	
-				<p>Набор для путешествий «Baxter of California»</p>
+				<p><a href="#">Набор для путешествий «Baxter of California»</a></p>
 					<span>2900 РУБ.</span>
 					<a href="#">Купить</a>
 			</article>
@@ -80,7 +103,7 @@
 				<div class="img-wrapper">
 					<img src="img/baxter-dry.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
 				</div>	
-				<p>Увлажняющий кондиционер «Baxter of California»</p>
+				<p><a href="#">Увлажняющий кондиционер «Baxter of California»</a></p>
 				<span>750 РУБ.</span>
 				<a href="#">Купить</a>
 			</article>
@@ -88,7 +111,7 @@
 				<div class="img-wrapper">
 					<img src="img/suavecito-gel.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
 				</div>
-				<p>Гель для волос «Suavecito»</p>
+				<p><a href="#">Гель для волос «Suavecito»</a></p>
 				<span>290 РУБ.</span>
 				<a href="#">Купить</a>
 			</article>
@@ -96,7 +119,7 @@
 				<div class="img-wrapper">
 					<img src="img/american-crew-gel-laying.jpg" width="220" height="165" alt="Гель для укладки волос «American crew»">
 				</div>	
-				<p>Гель для укладки волос «American crew»</p>
+				<p><a href="#">Гель для укладки волос «American crew»</a></p>
 				<span>500 РУБ.</span>
 				<a href="#">Купить</a>
 			</article>
@@ -104,7 +127,7 @@
 				<div class="img-wrapper">
 					<img src="img/american-crew-gel.jpg" width="220" height="165" alt="Гель для волос «American crew»">
 				</div>	
-				<p>Гель для волос «American crew»</p>
+				<p><a href="#">Гель для волос «American crew»</a></p>
 				<span>300 РУБ.</span>
 				<a href="#">Купить</a>
 			</article>
@@ -112,11 +135,11 @@
 				<div class="img-wrapper">
 					<img src="img/baxter-pack.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
 				</div>	
-				<p>Набор для бритья «Baxter of California»</p>
+				<p><a href="#">Набор для бритья «Baxter of California»</a></p>
 				<span>3900 РУБ.</span>
 				<a href="#">Купить</a>
 			</article>
-			<ul>
+			<ul class="navigation">
 				<li>
 					<a href="#">1</a>
 				</li>
